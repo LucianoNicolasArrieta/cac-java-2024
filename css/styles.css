@@ -28,27 +28,12 @@ body {
     background-color: #9f3647;
     box-shadow: 0px 0px 0.5rem #612731;
 }
-/*
-#banner {
-    background: url(/assets/img/banner-bg.jpg) no-repeat 0 0;
-    background-size: 100% 300%;
-}
-*/
-@keyframes appear {
-    0% {
-        transform: scale(0.3);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
 
 .main {
     background:linear-gradient(to right top, #0000008a, #0000008a), url(../assets/img/banner-bg.jpg);
     background-size: cover;
     background-position: center;
     height: auto;
-    animation: appear 1s ease;
 }
 
 #banner {
@@ -59,22 +44,47 @@ h1 {
     font-size: 3.5rem;
 }
 
-#registrate-btn {
+.boton-prim {
     background-color: #9f3647;
     padding: 0.8rem 2rem 0.8rem 2rem;
     margin-top: 1rem;
+    color: white;
     transition: all ease 0.3s;
 }
 
-#registrate-btn:hover {
+.boton-prim:hover {
+    background-color: #9f3647;
     box-shadow: 0px 0px 0.5rem rgba(255,255,255, 0.4);
     transform: scale(0.95);
     
+}
+
+#buscar {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+#boton-buscar {
+    margin: 0;
+    padding: 0.4rem 1rem;
+    border-color: white;
+    font-weight: bold;
+    cursor: default;
+}
+
+hr {
+    border-color: #9f3647;
+    border-width: 3px;
 }
 
 @media (min-width: 992px) {
     .main {
         height: 93vh;
     }
+}
 
+@media (min-width: 768px) {
+    #buscar-form {
+        max-width: 35rem;
+    }
 }
