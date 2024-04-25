@@ -1,5 +1,6 @@
 body {
     color: white;
+    background-color: #181419;
 }
 
 .navbar {
@@ -33,11 +34,21 @@ body {
     background-size: 100% 300%;
 }
 */
+@keyframes appear {
+    0% {
+        transform: scale(0.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .main {
     background:linear-gradient(to right top, #0000008a, #0000008a), url(../assets/img/banner-bg.jpg);
     background-size: cover;
     background-position: center;
     height: auto;
+    animation: appear 1s ease;
 }
 
 #banner {
