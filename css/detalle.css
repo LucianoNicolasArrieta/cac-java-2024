@@ -1,0 +1,80 @@
+body  {
+    font-size: 2vw;
+}
+
+main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../assets/img/mario-bg.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h5 {
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+
+.video-container {
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#info-peli {
+    margin-top: 3vh;
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 0.8vw;
+    }
+
+    main {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        height: 70vh;
+    }
+
+    h1 {
+        font-size: 2vw;
+    }
+
+    h2 {
+        font-size: 1.2vw;
+    }
+
+    h5 {
+        font-size: 1vw;
+    }
+
+    .video-container {
+        width: 580px;
+        padding-top: 55%;
+    }
+
+    #section-trailer-redes-info {
+        padding: 5vw 10vw;
+    }
+
+    #redes-info {
+        width: 25%;
+    }
+}
