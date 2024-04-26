@@ -139,12 +139,33 @@ hr {
 #footer {
     background-color: #9f3647;
     height: auto;
-    padding: 3vh;
+    padding: 4vh;
 }
 
 #boton-abm-peli {
     background-color: #181419;
     padding: 1vh 1.5vh;
+}
+
+#volver-arriba {
+    position: fixed; 
+    right: 20px;
+    bottom: 20px;
+    background-color: black;
+    color: #9f3647;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    z-index: 1000; 
+    cursor: pointer;
+    transition: linear 0.2s;
+}
+
+#volver-arriba:hover {
+    background-color: #181419;
 }
 
 @media (min-width: 992px) {
