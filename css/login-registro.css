@@ -92,6 +92,6 @@ form a {
 
 @media (max-width: 768px) {
     main, section {
-        height: 85vh;
+        height: 70vh;
     }
 }
