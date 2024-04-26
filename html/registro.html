@@ -34,12 +34,12 @@
             <div id="" class="form container-fluid text-center text-lg-start rounded-2">
                 <h1>Registro</h1>
                 <form action="" method="post" class="d-flex flex-column">
-                    <input type="text" name="" id="" class="form-control rounded" placeholder="Nombre" required>
-                    <input type="text" name="" id="" class="form-control rounded" placeholder="Apellido" required>
-                    <input type="email" name="" id="" class="form-control rounded" placeholder="Email" required>
-                    <input type="password" name="" id="" class="form-control rounded" placeholder="Contraseña" required>
-                    <input type="date" name="" id="input-fecha" class="form-control rounded" required>
-                    <select name="" id="" class="form-select rounded" required>
+                    <input type="text" name="nombre" id="nombre" class="form-control rounded" placeholder="Nombre" required>
+                    <input type="text" name="apellido" id="apellido" class="form-control rounded" placeholder="Apellido" required>
+                    <input type="email" name="email" id="email" class="form-control rounded" placeholder="Email" required>
+                    <input type="password" name="password" id="password" class="form-control rounded" placeholder="Contraseña" required>
+                    <input type="date" name="input-fecha" id="input-fecha" class="form-control rounded" required>
+                    <select name="pais" id="pais" class="form-select rounded" required>
                         <option value="" selected disabled hidden>País</option>
                         <option value="" >Argentina</option>
                         <option value="" >Bolivia</option>
@@ -50,7 +50,7 @@
                         <option value="" >Perú</option>
                     </select>
                     <div class="d-flex align-items-center mt-2 mb-3">
-                        <input type="checkbox" name="" id="" class="form-check" required>
+                        <input type="checkbox" name="terminos-y-condiciones" id="terminos-y-condiciones" class="form-check" required>
                         <p class="ps-2 m-0">Acepto términos y condiciones</p>
                     </div>
                     <div class="container-fluid d-flex flex-column justify-content-center align align-items-center">
