@@ -1,4 +1,4 @@
-fetch('http://api.weatherapi.com/v1/current.json?key=116e9a1a5c794f4894e02116242705&q=Buenos-Aires&lang=es')
+fetch('https://api.weatherapi.com/v1/current.json?key=116e9a1a5c794f4894e02116242705&q=Buenos-Aires&lang=es')
 .then(response => response.json())
 .then(data => {
     const location = data.location;
