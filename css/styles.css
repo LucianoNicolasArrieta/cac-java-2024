@@ -83,6 +83,22 @@ h1 {
     transform: scale(0.95);
 }
 
+.boton-prim:active {
+    background-color: var(--color-primario) !important;
+}
+
+.boton-prim:focus {
+    background-color: var(--color-primario) !important;
+}
+
+#registrate-btn:active {
+    border: none;
+}
+
+#registrate-btn:focus {
+    border: none;
+}
+
 #buscar {
     margin-top: 15vh;
     margin-bottom: 15vh;

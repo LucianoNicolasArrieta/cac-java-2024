@@ -54,6 +54,10 @@ input {
     padding-right: 1.5rem;
 }
 
+#pais {
+    text-indent: 0.20rem;
+}
+
 .form-control::placeholder {
     color: #6F7475;
 }
@@ -70,12 +74,20 @@ input {
 }
 
 #registrarse {
-    font-size: 0.7rem;
+    font-size: medium;
 }
 
 #registrarse:hover {
     box-shadow: none;
     transform: none;
+}
+
+#registrarse:active {
+    border: none;
+}
+
+#registrarse:focus {
+    border: none;
 }
 
 form a {
