@@ -83,6 +83,11 @@ form a {
     color: #6F7475;
 }
 
+#hora {
+    color: #6F7475;
+    font-size: medium;
+}
+
 @media (min-width: 992px) {
     .form {
         margin: 0 35vw;
