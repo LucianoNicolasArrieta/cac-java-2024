@@ -1,5 +1,4 @@
 main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../assets/img/mario-bg.jpg);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;
